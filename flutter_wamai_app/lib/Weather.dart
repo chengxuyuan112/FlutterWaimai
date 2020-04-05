@@ -14,8 +14,11 @@ class WeatherWidget extends StatefulWidget{
     // TODO: implement build
     return Row(
         children: <Widget>[
-          Icon(Icons.cloud_done),
-          Text("23")
+          Icon(Icons.cloud_done,size: 18,color: Colors.white),
+          Container(
+            margin: EdgeInsets.only(left: 5),
+            child:  Text("23") ,
+          )
         ],
     );
   }
